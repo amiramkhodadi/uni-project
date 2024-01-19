@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Linked List</title>
+
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Dynamic Linked List</h1>
+    <input type="text" id="nodeInput" onkeypress="addNodeOnEnter(event)">
+    <button onclick="addNode()">Add Node</button>
+    <!-- <button onclick="addSublist()">Add sub</button> -->
+    <p id="linkedList"></p>
+    <button onclick="calculateSum()">Calculate Sum</button>
+    <p id="sumResult"></p>
+    <button onclick="calculateDepth()">Calculate Depth</button>
+    <p id="depthResult"></p>
+    <form id="searchAndDeleteForm">
+        <input type="text" id="dataInput" placeholder="Enter data to delete">
+        <button type="button" onclick="searchAndDelete()">Search & Delete</button>
+    </form>
+    <p id="searchResult"></p>
+    <p id="listDisplay"></p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    font-family: "Salsa", cursive;
+    font-weight: bold;
+}
+
+.container {
+    width: 700px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbox {
+    background-color: transparent;
+
+    color: black;
+    border: 1px solid black;
+    width: 30%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.rightbox {
+    background-color: transparent;
+    width: 68%;
+    border-radius: 30px;
+    padding: 0 15px;
+}
+.forexpinput {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.inputdata {
+    padding: 1rem;
+
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+}
+
+.inputexp {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.inputdata input {
+    font-weight: bold;
+    width: 75%;
+    color: black;
+    text-align: left;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.inputdata button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #60666c;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.output {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 30px;
+    border: 1px solid black;
+}
